@@ -1,22 +1,23 @@
-# Análise Exploratória de Dados - TechStore
+# TechStore Sales Analysis
 
-Este repositório contém os scripts e notebooks para a análise exploratória de dados da empresa fictícia **TechStore**, que opera no setor de comércio eletrônico. O objetivo deste projeto é realizar uma análise exploratória dos dados de vendas da empresa, gerando insights que poderão guiar decisões estratégicas.
+Projeto de análise de vendas de uma loja de eletrônicos online fictícia "TechStore". O objetivo é explorar dados de vendas e fornecer insights para melhorar o desempenho comercial da empresa.
 
-## Estrutura do repositório
+## Estrutura do Repositório
+- `/data`: Dados brutos e processados.
+- `/scripts`: Scripts em Python para análise e processamento de dados.
+- `/notebooks`: Notebooks Jupyter com toda a análise exploratória e visualizações.
+- `/visualizations`: Gráficos e visualizações gerados durante a análise.
+- `/reports`: Relatório final do projeto.
 
-- `dataset/`: Contém o arquivo CSV com os dados analisados.
-- `notebooks/`: Notebooks Jupyter com as análises e gráficos.
-- `scripts/`: Scripts Python usados para carregar e explorar os dados.
+## Bibliotecas utilizadas
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
 
-## Requisitos para rodar os scripts
+## Como executar
+1. Clone este repositório: `git clone <link_do_repositorio>`
+2. Navegue até o diretório: `cd techstore-analysis`
+3. Instale as dependências: `pip install -r requirements.txt`
+4. Execute os scripts ou abra os notebooks.
 
-- Python 3.8+
-- Pandas
-- Matplotlib
-- Seaborn
-
-## Como rodar o projeto
-
-1. Clone o repositório: `git clone https://github.com/seu-usuario/analise-de-dados-techstore.git`
-2. Instale os requisitos: `pip install -r requirements.txt`
-3. Execute o notebook ou o script diretamente.
