@@ -1,0 +1,3 @@
+git add docs/analise_vendas_techstore.pdf
+git commit -m "Adicionando o PDF da análise de vendas da TechStore"
+git push origin main
