@@ -1,0 +1,18 @@
+/ (raiz do repositório)
+│
+├── /data
+│   ├── clientes.csv
+│   ├── produtos.csv
+│   ├── pedidos.csv
+│   └── feedbacks.csv
+│
+├── /notebooks
+│   └── analise_exploratoria.ipynb
+│
+├── /scripts
+│   ├── limpeza_dados.py
+│   └── analise_exploratoria.py
+│
+├── README.md
+├── LICENSE
+└── requirements.txt
