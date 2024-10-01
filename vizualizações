@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+import pandas as pd
+
+df = pd.read_csv('vendas.csv')  # Carregando os dados
+
+# Gráfico de vendas por categoria
+plt.figure(figsize=(10, 6))
+df.groupby('Categoria')['Vendas'].sum().plot(kind='bar')
+plt.title('Vendas por Categoria')
+plt.xlabel('Categoria')
+plt.ylabel('Total de Vendas')
+plt.savefig('visualizations/grafico_vendas_categoria.png')
+plt.close()
