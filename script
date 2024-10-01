@@ -1,0 +1,38 @@
+# Importando as bibliotecas necessárias
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Carregando o dataset
+data = pd.read_csv('dataset/vendas_techstore.csv')
+
+# Exibindo as primeiras linhas do dataset
+print("Primeiras linhas do dataset:")
+print(data.head())
+
+# Resumo estatístico do dataset
+print("Resumo estatístico:")
+print(data.describe())
+
+# Verificando valores ausentes
+print("Valores ausentes:")
+print(data.isnull().sum())
+
+# Plotando um gráfico de barras das vendas por categoria
+plt.figure(figsize=(10,6))
+sns.countplot(x='categoria', data=data)
+plt.title('Distribuição de Vendas por Categoria')
+plt.xticks(rotation=45)
+plt.show()
+
+# Histograma da distribuição de preços
+plt.figure(figsize=(8,5))
+sns.histplot(data['preco'], bins=30, kde=True)
+plt.title('Distribuição dos Preços dos Produtos')
+plt.show()
+
+# Verificando correlação entre as variáveis numéricas
+plt.figure(figsize=(10,6))
+sns.heatmap(data.corr(), annot=True, cmap='coolwarm', vmin=-1, vmax=1)
+plt.title('Correlação entre Variáveis')
+plt.show()
