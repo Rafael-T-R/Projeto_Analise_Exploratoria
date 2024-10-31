@@ -1,3 +1,4 @@
+`python
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -12,8 +13,17 @@ feedbacks = pd.read_csv('data/feedbacks.csv')
 print(clientes.info())
 print(pedidos.describe())
 
-# Visualização de Vendas por Produto
-vendas_por_produto = pedidos.groupby('produto_id')['quantidade'].sum()
-sns.barplot(x=vendas_por_produto.index, y=vendas_por_produto.values)
-plt.title('Vendas por Produto')
-plt.show()
+# Verificar se 'produto_id' e 'quantidade' existem no DataFrame pedidos
+if 'produto_id' in pedidos.columns and 'quantidade' in pedidos.columns:
+    # Visualização de Vendas por Produto
+    vendas_por_produto = pedidos.groupby('produto_id')['quantidade'].sum().reset_index()
+    
+    # Criar gráfico de barras
+    sns.barplot(x='produto_id', y='quantidade', data=vendas_por_produto)
+    plt.title('Vendas por Produto')
+    plt.xlabel('Produto ID')
+    plt.ylabel('Quantidade Vendida')
+    plt.xticks(rotation=45)  # Rotacionar os rótulos do eixo x se necessário
+    plt.show()
+else:
+    print("As colunas 'produto_id' ou 'quantidade' não estão presentes no DataFrame de pedidos.")
