@@ -1,0 +1,48 @@
+Storytelling: Análise de Vendas da Empresa E-commerce TechStore
+1. Apresentação
+Eu sou Rafael Tapigliani Rodrigues, um estudante de Ciência de Dados dedicado a aplicar métodos analíticos para resolver problemas de negócios reais. Este projeto é uma iniciativa individual que reflete a capacidade de transformar dados em informações estratégicas.
+
+2. Nome do Projeto
+"Análise de Vendas da Empresa E-commerce TechStore"
+
+3. Empresa/Organização de Estudo
+A análise foca na TechStore, uma loja fictícia de e-commerce especializada em produtos eletrônicos, como smartphones, fones de ouvido e smartwatches. O caso prático simula desafios reais enfrentados por empresas que dependem de dados para tomar decisões estratégicas.
+
+4. Área do Problema
+O projeto aborda o campo de análise de vendas e comportamento do consumidor, com foco em otimizar o desempenho comercial da TechStore.
+
+5. Descrição do Problema / Gap
+A TechStore está enfrentando dificuldades em identificar quais produtos geram maior receita, qual é o perfil de seus clientes mais frequentes e como melhorar o desempenho em períodos de baixa sazonalidade. A falta de uma visão clara e baseada em dados dificulta a tomada de decisões estratégicas para impulsionar as vendas e aumentar a retenção de clientes.
+
+6. Proposta Analítica
+A solução envolve realizar uma análise exploratória detalhada dos dados de vendas para:
+
+Identificar produtos de melhor e pior desempenho.
+Descobrir padrões sazonais e tendências de compra.
+Determinar perfis de clientes mais lucrativos.
+Oferecer insights que orientem estratégias de marketing e gestão de estoque.
+7. Dados Disponíveis
+Os dados utilizados neste projeto incluem:
+
+Informações sobre vendas diárias (quantidade, receita e produto vendido).
+Categorias de produtos.
+Localização geográfica dos clientes.
+Datas e horários de transações.
+Esses dados foram processados e organizados para garantir sua qualidade e relevância.
+
+8. Análise Exploratória
+Durante a análise exploratória, foram utilizados gráficos e estatísticas descritivas para:
+
+Examinar a distribuição de vendas ao longo do tempo.
+Visualizar a correlação entre categorias de produtos e receita.
+Identificar picos de vendas em datas comemorativas.
+Detectar lacunas em regiões ou categorias com baixo desempenho.
+Gráficos como histogramas, séries temporais e heatmaps destacaram padrões significativos.
+
+9. Resultados Pretendidos
+O projeto visa entregar:
+
+Uma lista clara dos produtos mais e menos vendidos.
+Recomendações baseadas em padrões sazonais para campanhas de marketing.
+Propostas de ajustes no portfólio de produtos para melhorar o retorno financeiro.
+Um relatório visual com insights práticos para guiar decisões estratégicas.
